@@ -1,4 +1,16 @@
 .policies {
 	width: 100%;
 	background-color: #333333;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 84px;
+}
+
+.policies--links {
+	color: var(--clr--white);
+	font-size: var(--fs--medium);
+	text-decoration: none;
+	padding: 0px 40px;
 }
