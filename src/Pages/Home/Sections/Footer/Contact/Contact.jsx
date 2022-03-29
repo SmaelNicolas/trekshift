@@ -7,6 +7,8 @@ import imgTw from "../../../../../Assets/Footer/Twitter.svg";
 import imgLnk from "../../../../../Assets/Footer/Linkedin.svg";
 import imgWtsp from "../../../../../Assets/Footer/Whatsapp.svg";
 
+import { openInNewTab } from "../../../../../Helpers/openNewTab";
+
 function Contact() {
 	return (
 		<div className='contact' id='contact'>
@@ -30,21 +32,39 @@ function Contact() {
 							src={imgIg}
 							alt='logo ig'
 							className='contact--top--socials--icons--link'
+							onClick={() =>
+								openInNewTab(
+									"https://www.instagram.com/trekshift/"
+								)
+							}
 						/>
 						<img
 							src={imgFb}
 							alt=' logo fb'
 							className='contact--top--socials--icons--link'
+							onClick={() =>
+								openInNewTab(
+									"https://www.facebook.com/trekshiftspain/"
+								)
+							}
 						/>
 						<img
 							src={imgTw}
 							alt=''
 							className='contact--top--socials--icons--link'
+							onClick={() =>
+								openInNewTab("https://twitter.com/TrekShifT/")
+							}
 						/>
 						<img
 							src={imgLnk}
 							alt=''
 							className='contact--top--socials--icons--link'
+							onClick={() =>
+								openInNewTab(
+									"https://linkedin.com/company/trekshift/"
+								)
+							}
 						/>
 					</div>
 				</div>
@@ -77,6 +97,11 @@ function Contact() {
 						src={imgWtsp}
 						alt=''
 						className='contact--top--socials--icons--link'
+						onClick={() =>
+							openInNewTab(
+								"https://linkedin.com/company/trekshift/"
+							)
+						}
 					/>
 				</div>
 			</div>
