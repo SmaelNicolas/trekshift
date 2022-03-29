@@ -224,4 +224,7 @@
 		font-size: var(--fs--normal);
 		padding-top: 20px;
 	}
+	.buttonMore {
+		width: 315px;
+	}
 }
