@@ -147,4 +147,15 @@
 	.contact--content--title {
 		padding: 10px 0px;
 	}
+	.contact--bottom--wtsp--content--text {
+		text-align: center;
+	}
+	.whatsappContainer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.ta-end {
+		text-align: center;
+	}
 }

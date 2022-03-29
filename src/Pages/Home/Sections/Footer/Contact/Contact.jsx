@@ -84,7 +84,7 @@ function Contact() {
 						</div>
 					</div>
 				</div>
-				<div className='contact--content--right fd-row jc-center ai-end'>
+				<div className='contact--content--right fd-row jc-center ai-end whatsappContainer'>
 					<div className='contact--bottom--wtsp--content'>
 						<div className='contact--content--title ta-end'>
 							¿Deseas comunicarte con nosotros?
