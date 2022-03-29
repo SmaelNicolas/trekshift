@@ -55,6 +55,7 @@
 	width: 78px;
 	height: 154px;
 	margin-right: 20px;
+	padding-left: 5px;
 }
 
 .contact--top--about--text {
@@ -119,4 +120,31 @@
 
 .contact--top--socials--icons--link {
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+	.contact--top--about--text {
+		font-size: var(--fs--normal);
+	}
+	.contact--top--socials--icons--link {
+		width: 60px;
+		height: 60px;
+		margin: 5px;
+	}
+}
+@media screen and (max-width: 827px) {
+	.contact--content--left {
+		width: 90%;
+		height: auto;
+		font-size: var(--fs--medium);
+		text-align: center;
+		justify-self: center;
+	}
+	.contact--content--right {
+		padding-top: 25px;
+		height: auto;
+	}
+	.contact--content--title {
+		padding: 10px 0px;
+	}
 }
