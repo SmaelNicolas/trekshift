@@ -8,12 +8,14 @@
 	--fs--small: 0.75rem;
 	--fs--normal: 1rem;
 	--fs--medium: 1.25rem;
+	--fs--xl: 1.5rem;
 	--fs--big: 1.75rem;
 
 	/* colors */
 	--clr--black: #000000;
 	--clr--footer: #333333;
 	--clr--background: #e5e5e5;
+	--clr--darkGreen: #10410c;
 	--clr--limeDark: #829901;
 	--clr--limeLight: #c5da01;
 	--clr--white: #ffffff;
