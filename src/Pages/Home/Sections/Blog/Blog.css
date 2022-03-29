@@ -178,13 +178,12 @@
 		max-width: 325px;
 		flex-direction: column;
 		margin: 10px;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
 	}
 	.firstPost--image {
 		width: 100%;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
+		border-radius: 15px;
 	}
 	.firstPost--content {
 		width: 100%;
