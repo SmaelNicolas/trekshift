@@ -13,4 +13,11 @@
 	font-size: var(--fs--medium);
 	text-decoration: none;
 	padding: 0px 40px;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	.policies--links {
+		font-size: 0.8rem;
+	}
 }
