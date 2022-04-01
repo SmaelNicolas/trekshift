@@ -7,7 +7,7 @@ function About(){
     return(
         <section id={'about'}>
 
-            <div className={'aboutCards'}>
+            <div className={'aboutCards responsiveCard'}>
                 <div className={'imgContainer'}>
                     <img src={botas} alt={'botas'} className={'aboutImg'}/>
                 </div>
@@ -23,7 +23,7 @@ function About(){
                 </div>
             </div>
 
-            <div className={'aboutCards'}>
+            <div className={'aboutCards responsiveCard reverse'}>
                 <div className={'aboutText'}>
                     <p className={'cardTitle'}>Nuestra Misión</p>
                     <br/>
@@ -39,7 +39,7 @@ function About(){
                 </div>
             </div>
 
-            <div className={'aboutCards'}>
+            <div className={'aboutCards responsiveCard'}>
                 <div className={'imgContainer'}>
                     <img src={remera} alt={'remera'} className={'aboutImg'}/>
                 </div>

@@ -4,7 +4,7 @@
 }
 
 .heroBack{
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -17,12 +17,16 @@
     align-items: center;
 }
 
+.slogan > img{
+    width: min(39.671vw,578px)
+}
+
 .heroText{
-    width: 469px;
+    width: min(73%,469px);
     font-family: var(--ff--montserrat);
     font-style: normal;
     font-weight: 400;
-    font-size: var(--fs--medium);
+    font-size: clamp(var(--fs--small),0.4840rem + 0.866vw,var(--fs--medium))    ;
     line-height: 29px;
     color: #ffffff;
     text-align: center;

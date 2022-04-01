@@ -10,8 +10,6 @@ function Home() {
 		<div className='home' id='home'>
 			<Hero />
 			<About />
-			<Blog />
-			<Footer />
 		</div>
 	);
 }

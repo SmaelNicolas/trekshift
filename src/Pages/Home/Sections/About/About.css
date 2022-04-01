@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-    width: 100vw;
+    width: 100%;
 }
 
 .aboutCards{
@@ -12,11 +12,25 @@
     width: 93vw;
 }
 
+
+@media(max-width: 750px){
+    .responsiveCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+}
+
 .imgContainer{
     width: 50%;
     max-height: 510;
     padding: 0 3px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,7 +44,7 @@
     margin: 40px 3vw;
     text-align: center;
     font-family: var(--ff--montserrat);
-    font-size: 24px;
+    font-size: clamp(var(--fs--normal),0.4091rem + 1.2121vw,1.5rem);
 }
 
 .cardTitle{
