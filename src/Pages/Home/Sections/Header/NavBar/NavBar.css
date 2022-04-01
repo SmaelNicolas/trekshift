@@ -1,0 +1,17 @@
+nav{
+    margin-top: 50px;
+    padding-right: 1.4vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15.5px;
+}
+
+.navLink{
+    margin-left: 0.7vw;
+}
+
+.logo{
+    position: absolute;
+    top: 37px;
+    left: 3.25vw;
+}
