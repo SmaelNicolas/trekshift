@@ -32,4 +32,5 @@ body {
 	/* toma el ancho de la pantalla sin tener en cuenta la barra de scroll */
 	/* entonces un hijo de body con width: 100% seria el ancho de la pantalla sin la barra */
 	width: calc(100vw - (100vw - 100%));
+	background-color: var(--clr--background);
 }

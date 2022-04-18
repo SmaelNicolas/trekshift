@@ -1,0 +1,35 @@
+.heroImg{
+    position: relative;
+    z-index: -1;
+}
+
+.heroBack{
+    width: 100%;
+    height: auto;
+}
+
+.slogan{
+    position: absolute;
+    left: 55.1vw;
+    top: 26.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan > img{
+    width: min(39.671vw,578px)
+}
+
+.heroText{
+    width: min(73%,469px);
+    font-family: var(--ff--montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(var(--fs--small),0.4840rem + 0.866vw,var(--fs--medium))    ;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 25px;
+}
