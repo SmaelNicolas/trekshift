@@ -78,7 +78,14 @@ function Blog() {
 				)
 			)}
 
-			<button className='buttonMore'>Más artículos</button>
+			<button
+				className='buttonMore'
+				onClick={() =>
+					openInNewTab("https://www.instagram.com/trekshift/")
+				}
+			>
+				Más artículos
+			</button>
 		</div>
 	);
 }

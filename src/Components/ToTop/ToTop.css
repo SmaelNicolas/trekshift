@@ -1,0 +1,25 @@
+.toTop {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	bottom: 10px;
+	background-color: var(--clr--darkGreen);
+	border-radius: 50%;
+	opacity: 0.3;
+	transition: all 0.3s linear;
+	cursor: pointer;
+}
+
+.toTop:hover {
+	transition: all 0.3s linear;
+	opacity: 1;
+}
+
+.arrow {
+	color: var(--clr--limeLight);
+	font-size: var(--fs--xl);
+}
