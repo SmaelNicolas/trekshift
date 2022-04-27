@@ -11,11 +11,7 @@ function Hero() {
 				alt={"imagen principal"}
 			/>
 			<div className={"slogan"}>
-				<img
-					className={"sloganImage"}
-					src={slogan}
-					alt={"Comprometidos con el medio ambiente"}
-				/>
+				<img src={slogan} alt={"Comprometidos con el medio ambiente"} />
 				<p className={"heroText"}>
 					Cuidamos y protegemos nuestros recursos haciendo un óptimo
 					re-uso de nuestras materias primas
