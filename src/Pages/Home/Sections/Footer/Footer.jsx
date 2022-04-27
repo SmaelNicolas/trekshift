@@ -1,12 +1,12 @@
 import Contact from "./Contact/Contact";
 import "./Footer.css";
-import Policies from "./Policies/Policies";
+// import Policies from "./Policies/Policies";
 
 function Footer() {
 	return (
 		<div className='footer' id='footer'>
 			<Contact />
-			<Policies />
+			{/* <Policies /> */}
 		</div>
 	);
 }
