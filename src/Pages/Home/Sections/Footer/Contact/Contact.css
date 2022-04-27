@@ -96,7 +96,7 @@
 }
 
 .contact--bottom--direct {
-	width: 50%;
+	width: 100%;
 	height: 154px;
 	display: flex;
 	flex-direction: column;

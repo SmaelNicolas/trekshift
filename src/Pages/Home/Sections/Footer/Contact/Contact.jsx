@@ -70,7 +70,16 @@ function Contact() {
 				</div>
 			</div>
 			<div className='contact--content'>
-				<div className='contact--content--left fd-column jc-end '>
+				{/* COMENTAR PARA AGREGAR WHATSAPP */}
+				<div className='contact--bottom--direct--email'>
+					<div className='contact--content--title'>Email</div>
+					<div className='contact--bottom--direct--email-direction'>
+						shifttrek@gmail.com
+					</div>
+				</div>
+
+				{/* DESCOMENTAR PARA AGREAR WHATSAPP */}
+				{/* <div className='contact--content--left fd-column jc-end '>
 					<div className='contact--bottom--direct--phone'>
 						<div className='contact--content--title'>Contacto</div>
 						<div className='contact--bottom--direct--phone--number'>
@@ -103,7 +112,7 @@ function Contact() {
 							)
 						}
 					/>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
