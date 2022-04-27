@@ -72,7 +72,9 @@ function Contact() {
 			<div className='contact--content'>
 				{/* COMENTAR PARA AGREGAR WHATSAPP */}
 				<div className='contact--bottom--direct--email'>
-					<div className='contact--content--title'>Email</div>
+					<div className='contact--content--title contact--content--title--email	'>
+						Email
+					</div>
 					<div className='contact--bottom--direct--email-direction'>
 						shifttrek@gmail.com
 					</div>

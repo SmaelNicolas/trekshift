@@ -81,6 +81,9 @@
 	padding-bottom: 5px;
 	font-size: 1rem;
 }
+.contact--content--title--email {
+	text-align: center;
+}
 
 .contact--top--socials--icons {
 	display: flex;
