@@ -1,35 +1,82 @@
-.heroImg{
-    position: relative;
-    z-index: -1;
+.heroImg {
+	position: relative;
+	z-index: -1;
 }
 
-.heroBack{
-    width: 100%;
-    height: auto;
+.heroBack {
+	width: 100%;
+	height: auto;
 }
 
-.slogan{
-    position: absolute;
-    left: 55.1vw;
-    top: 26.4%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.slogan {
+	position: absolute;
+	left: 55.1vw;
+	top: 26.4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.slogan > img{
-    width: min(39.671vw,578px)
+.slogan > img {
+	width: min(39.671vw, 578px);
 }
 
-.heroText{
-    width: min(73%,469px);
-    font-family: var(--ff--montserrat);
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(var(--fs--small),0.4840rem + 0.866vw,var(--fs--medium))    ;
-    line-height: 29px;
-    color: #ffffff;
-    text-align: center;
-    padding: 0 40px;
-    margin-top: 25px;
+.heroText {
+	width: 325px;
+	font-family: var(--ff--montserrat);
+	font-style: normal;
+	font-weight: 400;
+	font-size: clamp(var(--fs--small), 0.484rem + 0.866vw, var(--fs--medium));
+	line-height: 29px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 25px;
+}
+
+@media screen and (max-width: 760px) {
+	.slogan {
+		left: 45vw;
+		top: 22%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.slogan {
+		left: 40vw;
+		top: 22%;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.slogan {
+		left: 30vw;
+		top: 15%;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.slogan {
+		left: 15vw;
+		top: 15%;
+	}
+
+	.heroText {
+		color: #ffffff;
+		background-color: rgba(0, 0, 0, 0.281);
+		border-radius: 5px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.slogan {
+		left: 4vw;
+		top: 15%;
+		width: 300px;
+	}
+
+	.heroText {
+		color: #ffffff;
+		background-color: rgba(0, 0, 0, 0.281);
+		border-radius: 5px;
+	}
 }
